@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>About Me</title>
+    </head>
+
+    <body>
+        <h1>Hello World!</h1>
+
+        <h2>Let's play a get to know each other game</h2>
+
+<p>
+    <ul>
+        <li>What is your name?</li>
+        <li>What is your favorite outdoor activity?</li>
+        <li>What is your favorite snack to eat?</li>
+        <li>What is your favorite food to make?</li>
+    </ul>
+    
+
+</p>
+
+        <script>
+            console.log('Welcome to my app');
+           var name =  prompt ('What is your name?');
+           alert('Hi ' + name +', it is nice to meet you.');
+           console.log('Asked for a name, result : ' + name);
+           
+           var activity = prompt ('What is your favorite outdoor activity?');
+           alert('Hi ' + name +', I would like to try ' + activity +' when I go exploring.');
+           console.log('Asked for an activity, result : ' + activity);
+           
+           var snack = prompt ('What is your favorite snack to eat?');
+           alert('Hi ' + name +' I would like to bring ' + snack +' when I go ' + activity + '.');
+           console.log('Asked for a snack, result : ' + snack);
+
+           var food = prompt ('What is your favorite food to make?');
+           alert('Hi ' + name + ' I would like to bring a picnic of ' + food +' and ' + snack +' when I go ' + activity +'.');
+           console.log('Asked for a food, result : ' + food);
+        </script>
+    </body>
+</html>

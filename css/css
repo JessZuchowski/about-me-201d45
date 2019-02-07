@@ -1,0 +1,11 @@
+body {
+    background-color: Grey;
+}
+
+h1 {
+    color : Linen;
+}
+
+p {
+    color : OldLace;
+}
