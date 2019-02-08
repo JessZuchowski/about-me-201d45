@@ -3,9 +3,14 @@ body {
 }
 
 h1 {
+    color: rgb(172, 209, 157);
+}
+
+h2 {
     color : rgb(232, 245, 186);
 }
 
-p {
+li {
+    background-color: rgb(63, 63, 63);
     color : rgb(253, 226, 194);
 }
